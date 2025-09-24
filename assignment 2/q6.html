@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>swapping 2 numbers using temporary variable</h1>
+    <script>
+        
+let a=9;
+let b=4;
+
+console.log(`before swapping`);
+console.log(`The value of a after swapping: ${a}`);
+console.log(`The value of b after swapping: ${b}`);
+
+
+let temp;
+
+
+temp = a;
+a = b;
+b = temp;
+
+console.log(`after swapping`);
+console.log(`The value of a after swapping: ${a}`);
+console.log(`The value of b after swapping: ${b}`);
+    </script>
+</body>
+</html>
